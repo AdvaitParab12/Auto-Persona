@@ -57,8 +57,6 @@ function configurator({ color, updateOptions }) {
   ];
   return (
     <div className="w-[30%]">
-      <h1 className="font-inter text-2xl font-semibold">AUTO PERSONA</h1>
-
       <div className="flex flex-col items-center justify-start bg-slate-200 mt-10 p-3 rounded-lg w-96">
         <h3 className="font-inter text-lg">EXTERIOR COLOURS</h3>
         <div className="flex gap-2 flex-wrap items-start justify-start p-4">

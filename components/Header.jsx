@@ -3,7 +3,7 @@ function Header() {
   return (
     <div className="flex items-center justify-center">
       <Image
-        src="/configuration.png"
+        src="/configuration_black.png"
         alt="configuration"
         height={50}
         width={50}
@@ -14,7 +14,7 @@ function Header() {
         AUTO PERSONA
       </h1>
       <Image
-        src="/configuration.png"
+        src="/configuration_black.png"
         alt="configuration"
         height={50}
         width={50}
