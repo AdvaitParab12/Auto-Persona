@@ -1,7 +1,6 @@
 "use client";
 import Image from "next/image";
 function configurator({ color, updateOptions }) {
-  console.log(color);
   const exteriorColors = [
     {
       id: 1,
@@ -51,9 +50,9 @@ function configurator({ color, updateOptions }) {
   ];
   return (
     <div className="w-[30%]">
-      <div className="flex flex-col items-center justify-start bg-slate-200 mt-10 p-3 rounded-lg w-96">
+      <div className="flex flex-col items-center justify-start bg-slate-400 mt-10 p-3 rounded-lg w-52 h-48 lg:w-96">
         <h3 className="font-inter text-lg">EXTERIOR COLOURS</h3>
-        <div className="flex gap-2 flex-wrap items-start justify-start p-4">
+        <div className="flex gap-2 flex-wrap lg:flex lg:gap-2 lg:flex-wrap lg:items-start lg:justify-start lg:p-4">
           {exteriorColors.map((exterior) => (
             <button
               key={exterior.id}
@@ -66,7 +65,7 @@ function configurator({ color, updateOptions }) {
             >
               <div
                 style={{ backgroundColor: exterior.color }}
-                className="w-40 h-10 rounded-lg"
+                className="w-10 h-10 lg:w-40 lg:h-10 rounded-lg"
               ></div>
             </button>
           ))}

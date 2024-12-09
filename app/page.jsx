@@ -15,10 +15,10 @@ function HomePage() {
   }
 
   return (
-    <div className="h-screen">
+    <div className="h-screen lg:h-screen bg-slate-600 p-10">
       <Header />
       <HeaderOptions />
-      <div className="flex justify-between items-center">
+      <div className="flex flex-col lg:flex lg:flex-row lg:justify-between lg:items-center">
         <Preview {...activeOptions}/>
         <Configurator updateOptions={updateOptions} {...activeOptions} />
       </div>
