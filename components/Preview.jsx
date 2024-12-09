@@ -7,7 +7,7 @@ function Preview({ color = "grey" }) {
         src={`/assets/car_colors/${color}.webp`}
         height={900}
         width={900}
-        alt="car image"
+        alt={`${color}`}
         className="rounded-md"
       />
     </div>

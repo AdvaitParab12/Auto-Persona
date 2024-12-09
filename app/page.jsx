@@ -7,7 +7,7 @@ import Configurator from "@/components/Configurator";
 
 function HomePage() {
   const [activeOptions, setActiveOptions] = useState({
-    color: "Grey",
+    color: "grey",
   });
   function updateOptions(option, value) {
     const newOptions = { ...activeOptions, [option]: value };

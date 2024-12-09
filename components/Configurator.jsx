@@ -1,58 +1,52 @@
 "use client";
 import Image from "next/image";
 function configurator({ color, updateOptions }) {
-  // console.log(color);
+  console.log(color);
   const exteriorColors = [
     {
       id: 1,
-      name: "Blue",
+      name: "blue",
       color: "#3864b4",
     },
     {
       id: 2,
-      name: "DarkBlue",
+      name: "darkblue",
       color: "#00194b",
     },
     {
       id: 3,
-      name: "Grey",
+      name: "grey",
       color: "#646970",
     },
     {
       id: 4,
-      name: "JetBlack",
+      name: "jetblack",
       color: "#000000",
     },
     {
       id: 5,
-      name: "Red",
+      name: "red",
       color: "#cc0033",
     },
     {
       id: 6,
-      name: "Silver",
+      name: "silver",
       color: "#cccccc",
     },
     {
       id: 7,
-      name: "SlateGrey",
+      name: "slategrey",
       color: "#4e4e53",
     },
     {
       id: 8,
-      name: "White",
+      name: "white",
       color: "#efefef",
     },
     {
       id: 9,
-      name: "Yellow",
+      name: "yellow",
       color: "#ced27b",
-    },
-  ];
-  const wheels = [
-    {
-      id: 1,
-      name: "Carrera",
     },
   ];
   return (
