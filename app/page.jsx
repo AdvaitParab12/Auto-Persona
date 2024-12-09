@@ -18,7 +18,7 @@ function HomePage() {
     <div className="h-screen lg:h-screen bg-slate-600 p-10">
       <Header />
       <HeaderOptions />
-      <div className="flex flex-col lg:flex lg:flex-row lg:justify-between lg:items-center">
+      <div className="flex flex-col md:flex-col md:justify-between md:items-center lg:flex-row md:gap-3">
         <Preview {...activeOptions}/>
         <Configurator updateOptions={updateOptions} {...activeOptions} />
       </div>
