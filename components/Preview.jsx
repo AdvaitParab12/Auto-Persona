@@ -1,7 +1,6 @@
 import Image from "next/image";
 
-function Preview({ color = "Grey" }) {
-  console.log(`/assets/car_colors/${color}.webp`);
+function Preview({ color = "grey" }) {
   return (
     <div className="flex justify-center items-center w-[70%]">
       <Image
