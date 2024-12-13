@@ -7,19 +7,21 @@ import Configurator from "@/components/Configurator";
 
 function HomePage() {
   const [activeOptions, setActiveOptions] = useState({
-    color: "grey",
+    color: "Blue",
+    wheels: "Carrera Wheels",
   });
+
   function updateOptions(option, value) {
     const newOptions = { ...activeOptions, [option]: value };
     setActiveOptions(newOptions);
   }
 
   return (
-    <div className="h-screen lg:h-screen bg-slate-600 p-10">
+    <div className="bg-slate-600 p-10">
       <Header />
       <HeaderOptions />
-      <div className="flex flex-col md:flex-col md:justify-between md:items-center lg:flex-row md:gap-3">
-        <Preview {...activeOptions}/>
+      <div className="flex w-full flex-col md:flex-col md:items-center md:justify-between md:gap-3 lg:flex-row">
+        <Preview {...activeOptions} />
         <Configurator updateOptions={updateOptions} {...activeOptions} />
       </div>
     </div>

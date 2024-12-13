@@ -1,6 +1,6 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
-import Image from "next/image";
-function configurator({ color, updateOptions }) {
+function configurator({ color, wheels, updateOptions }) {
   const exteriorColors = [
     {
       id: 1,
@@ -48,27 +48,79 @@ function configurator({ color, updateOptions }) {
       color: "#ced27b",
     },
   ];
+  const wheelOptions = [
+    {
+      id: 0,
+      name: "Careera Wheel",
+      src: "/assets/wheels/carrera_wheel.png",
+    },
+    {
+      id: 1,
+      name: "Careers S Wheel",
+      src: "/assets/wheels/carrera_s_wheel.png",
+    },
+    {
+      id: 2,
+      name: "Careera Exclusive Wheel",
+      src: "/assets/wheels/carrera_exclusive_wheel.png",
+    },
+    {
+      id: 3,
+      name: "Careera Classic Wheel",
+      src: "/assets/wheels/carrera_classic_wheel.png",
+    },
+    {
+      id: 4,
+      name: "Spyder Wheel",
+      src: "/assets/wheels/spyder_wheel.png",
+    },
+    {
+      id: 5,
+      name: "Carbon Blades",
+      src: "/assets/wheels/carbon_blades.png",
+    },
+  ];
   return (
-    <div className="w-[30%]">
-      <div className="flex flex-col items-center justify-start md:justify-center bg-slate-400 mt-10 p-3 rounded-lg w-[22rem] h-30 lg:h-80 lg:w-96 md:h-[18rem] md:w-72  mb-10">
-        <h3 className="font-inter text-lg">EXTERIOR COLOURS</h3>
-        <div className="flex gap-2 flex-wrap lg:flex lg:gap-2 lg:flex-wrap lg:items-start lg:justify-start lg:p-4">
+    <div className="w-full md:w-[30%]">
+      <div className="mb-10 mt-10 flex flex-col items-center justify-start rounded-lg bg-slate-400 p-1 md:items-center md:justify-center">
+        <h3 className="font-inter text-lg font-semibold">EXTERIOR COLOURS</h3>
+        <div className="flex flex-wrap gap-2 md:items-start md:justify-center lg:flex lg:flex-wrap lg:gap-2 lg:p-4">
           {exteriorColors.map((exterior) => (
             <button
               key={exterior.id}
               onClick={() => updateOptions("color", exterior.name)}
-              className={`hover:scale-105 transition-transform duration-100 ${
+              className={`transition-transform duration-100 hover:scale-105 ${
                 exterior === exterior.name
-                  ? "border-2 border-blue-300 rounded-full"
+                  ? "rounded-full border-2 border-blue-900"
                   : ""
               }`}
             >
               <div
                 style={{ backgroundColor: exterior.color }}
-                className="w-10 h-10 lg:w-40 lg:h-10 md:w-32 md:h-10 rounded-lg"
+                className="md:w-50 m-1 h-10 w-10 rounded-lg md:h-10 lg:m-0 lg:h-10 lg:w-40"
               ></div>
             </button>
           ))}
+        </div>
+      </div>
+      <div className="mb-10 mt-10 flex flex-col items-center justify-start rounded-lg bg-slate-400 p-1 md:items-center md:justify-center">
+        <h3 className="font-inter text-lg font-semibold">WHEEL OPTIONS</h3>
+        <div className="flex flex-wrap gap-2 md:items-start md:justify-center lg:flex lg:flex-wrap lg:gap-2 lg:p-4">
+          {wheelOptions.map((wheel) => {
+            return (
+              <button
+                key={wheel.id}
+                onClick={() => updateOptions("wheel", wheel.name)}
+                className={`transition-transform duration-100 hover:scale-105 ${
+                  wheel.name === wheel
+                    ? "rounded-full border-2 border-blue-900"
+                    : ""
+                }`}
+              >
+                <img src={wheel.src} alt={wheel.name} className="mx-4 w-16" />
+              </button>
+            );
+          })}
         </div>
       </div>
     </div>
