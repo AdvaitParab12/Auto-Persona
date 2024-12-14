@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
-"use client";
-function configurator({ color, wheels, updateOptions }) {
+
+function Configurator({ color, wheel, updateOptions }) {
   const exteriorColors = [
     {
       id: 1,
@@ -51,27 +51,27 @@ function configurator({ color, wheels, updateOptions }) {
   const wheelOptions = [
     {
       id: 0,
-      name: "Careera Wheel",
+      name: "Carrera_Wheels",
       src: "/assets/wheels/carrera_wheel.png",
     },
     {
       id: 1,
-      name: "Careers S Wheel",
+      name: "Carrera_S_Wheels",
       src: "/assets/wheels/carrera_s_wheel.png",
     },
     {
       id: 2,
-      name: "Careera Exclusive Wheel",
+      name: "Carrera_Exclusive_Wheels",
       src: "/assets/wheels/carrera_exclusive_wheel.png",
     },
     {
       id: 3,
-      name: "Careera Classic Wheel",
+      name: "Carrera_Classic_Wheels",
       src: "/assets/wheels/carrera_classic_wheel.png",
     },
     {
       id: 4,
-      name: "Spyder Wheel",
+      name: "Spyder Wheels",
       src: "/assets/wheels/spyder_wheel.png",
     },
     {
@@ -90,7 +90,7 @@ function configurator({ color, wheels, updateOptions }) {
               key={exterior.id}
               onClick={() => updateOptions("color", exterior.name)}
               className={`transition-transform duration-100 hover:scale-105 ${
-                exterior === exterior.name
+                color === exterior.name
                   ? "rounded-full border-2 border-blue-900"
                   : ""
               }`}
@@ -106,18 +106,18 @@ function configurator({ color, wheels, updateOptions }) {
       <div className="mb-10 mt-10 flex flex-col items-center justify-start rounded-lg bg-slate-400 p-1 md:items-center md:justify-center">
         <h3 className="font-inter text-lg font-semibold">WHEEL OPTIONS</h3>
         <div className="flex flex-wrap gap-2 md:items-start md:justify-center lg:flex lg:flex-wrap lg:gap-2 lg:p-4">
-          {wheelOptions.map((wheel) => {
+          {wheelOptions.map((wheelOption) => {
             return (
               <button
-                key={wheel.id}
-                onClick={() => updateOptions("wheel", wheel.name)}
+                key={wheelOption.id}
+                onClick={() => updateOptions("wheel", wheelOption.name)}
                 className={`transition-transform duration-100 hover:scale-105 ${
-                  wheel.name === wheel
+                  wheel === wheelOption.name
                     ? "rounded-full border-2 border-blue-900"
                     : ""
                 }`}
               >
-                <img src={wheel.src} alt={wheel.name} className="mx-4 w-16" />
+                <img src={wheelOption.src} alt={wheelOption.name} className="mx-4 w-16" />
               </button>
             );
           })}
@@ -127,4 +127,4 @@ function configurator({ color, wheels, updateOptions }) {
   );
 }
 
-export default configurator;
+export default Configurator;

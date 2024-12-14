@@ -8,7 +8,7 @@ import Configurator from "@/components/Configurator";
 function HomePage() {
   const [activeOptions, setActiveOptions] = useState({
     color: "Blue",
-    wheels: "Carrera Wheels",
+    wheel: "Carrera_Wheels",
   });
 
   function updateOptions(option, value) {
