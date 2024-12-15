@@ -7,7 +7,7 @@ function ExteriorPreview({ color = "Blue", wheel = "Carrera Wheels" }) {
       <Image
         src={configs[color].wheels[wheel]}
         width="1000"
-        height="900"
+        height="1000"
         alt={`${color}, ${wheel}`}
         className="rounded-lg"
       />
