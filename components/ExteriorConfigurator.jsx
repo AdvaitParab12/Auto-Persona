@@ -37,7 +37,7 @@ function Configurator({ color = "", wheel = "", updateOptions }) {
 
   return (
     <div className="w-full mr-[12rem] md:mr-[0rem] md:w-[30%]">
-      <div className="mb-5 mt-10 w-[26rem] flex flex-col items-center justify-start rounded-lg bg-slate-300 p-4">
+      <div className="mb-5 mt-10 w-full md:w-[26rem] flex flex-col items-center justify-start rounded-lg bg-slate-300 p-4">
         <h3 className="font-inter text-lg font-semibold mb-2">EXTERIOR COLORS</h3>
         <div className="flex flex-wrap gap-2">
           {exteriorColors.map((exterior) => (
@@ -53,14 +53,14 @@ function Configurator({ color = "", wheel = "", updateOptions }) {
             >
               <div
                 style={{ backgroundColor: exterior.color }}
-                className="m-1 h-10 w-44 rounded-xl"
+                className="m-1 ml-1 h-10 w-12 md:ml-1  md:h-10 md:w-44 rounded-xl"
                 aria-label={exterior.name}
               />
             </button>
           ))}
         </div>
       </div>
-      <div className="mb-10 w-[26rem] flex flex-col items-center justify-center rounded-lg bg-slate-300 p-4">
+      <div className="mb-10 w-full md:w-[26rem] flex flex-col items-center justify-center rounded-lg bg-slate-300 p-4">
         <h3 className="font-inter text-lg font-semibold mb-2">WHEEL OPTIONS</h3>
         <div className="flex flex-wrap gap-5 items-center justify-center">
           {wheelOptions.map((wheelOption) => (

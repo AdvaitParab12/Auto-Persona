@@ -31,7 +31,7 @@ function InteriorSeatConfigurator({ interiorseats = "", updateOptions }) {
   
     return (
       <div className="w-full mr-[12rem] md:mr-[0rem] md:w-[30%]">
-        <div className="mb-10 mt-10 w-[26rem] flex flex-col items-center justify-start rounded-lg bg-slate-300 p-4">
+        <div className="mb-10 mt-10 w-full md:w-[26rem] flex flex-col items-center justify-start rounded-lg bg-slate-300 p-4">
           <h3 className="font-inter text-lg font-semibold mb-5">INTERIOR-SEATS COLORS</h3>
           <div className="flex flex-wrap gap-2">
             {interiorSeatColors.map((interior) => (
@@ -46,7 +46,7 @@ function InteriorSeatConfigurator({ interiorseats = "", updateOptions }) {
                 }`}
               >
                 <div
-                  className="m-1 h-10 w-44 relative overflow-hidden rounded-xl"
+                  className="m-1 h-10 w-12 md:h-10 md:w-44 relative overflow-hidden rounded-xl"
                   aria-label={interior.name}
                 >
                   {interior.color && (
