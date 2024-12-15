@@ -1,14 +1,21 @@
 "use client";
 import { useState } from "react";
 import Header from "@/components/Header";
-import HeaderOptions from "@/components/HeaderOptions";
-import Preview from "@/components/Preview";
-import Configurator from "@/components/Configurator";
+import ExteriorHeader from "@/components/ExteriorHeader";
+import ExteriorPreview from "@/components/ExteriorPreview";
+import Configurator from "@/components/ExteriorConfigurator";
+import InteriorHeader from "@/components/InteriorHeader";
+import InteriorPreview from "@/components/InteriorPreview";
+import InteriorConfigurator from "@/components/InteriorConfigurator";
+import InteriorSeatHeader from "@/components/InteriorSeatHeader";
+import InteriorSeatPreview from "@/components/InteriorSeatPreview";
+import InteriorSeatConfigurator from "@/components/InteriorSeatConfigurator";
 
 function HomePage() {
   const [activeOptions, setActiveOptions] = useState({
     color: "Blue",
     wheel: "Carrera_Wheels",
+    interiorcolor: "red",
   });
 
   function updateOptions(option, value) {
@@ -17,12 +24,28 @@ function HomePage() {
   }
 
   return (
-    <div className="bg-slate-600 p-10">
+    <div className="p-10">
       <Header />
-      <HeaderOptions />
-      <div className="flex w-full flex-col md:flex-col md:items-center md:justify-between md:gap-3 lg:flex-row">
-        <Preview {...activeOptions} />
+      <ExteriorHeader />
+      <div className="flex flex-col md:flex-col md:items-center md:justify-between md:gap-3 lg:flex-row">
+        <ExteriorPreview {...activeOptions} />
         <Configurator updateOptions={updateOptions} {...activeOptions} />
+      </div>
+      <InteriorHeader />
+      <div className="flex flex-col md:flex-col md:items-center md:justify-between md:gap-3 lg:flex-row">
+        <InteriorPreview {...activeOptions} />
+        <InteriorConfigurator
+          updateOptions={updateOptions}
+          {...activeOptions}
+        />
+      </div>
+      <InteriorSeatHeader />
+      <div className="flex flex-col md:flex-col md:items-center md:justify-between md:gap-3 lg:flex-row">
+        <InteriorSeatPreview {...activeOptions} />
+        <InteriorSeatConfigurator
+          updateOptions={updateOptions}
+          {...activeOptions}
+        />
       </div>
     </div>
   );

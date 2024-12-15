@@ -1,18 +1,17 @@
 import Image from "next/image";
-import configs from "@/app/assets/configs.json";
 
-function Preview({ color = "Blue", wheel = "Carrera Wheels" }) {
+function InteriorSeatPreview({interiorseats="red"}) {
   return (
     <div className="md:w-[70%] lg:flex lg:items-center lg:justify-center">
       <Image
-        src={configs[color].wheels[wheel]}
+        src={`/assets/car_interior_seats/${interiorseats}.webp`}
         width="900"
         height="900"
-        alt={`${color}, ${wheel}`}
+        alt={`${interiorseats}`}
         className="rounded-lg"
       />
     </div>
   );
 }
 
-export default Preview;
+export default InteriorSeatPreview;
