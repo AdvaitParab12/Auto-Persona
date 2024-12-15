@@ -8,7 +8,7 @@ function Header() {
         height={50}
         width={50}
         sizes="100vw"
-        className="m-4"
+        className="m-4 hidden md:block"
       />
       <h1 className="m-4 rounded-md text-center font-inter text-5xl font-light tracking-widest">
         AUTO PERSONA
@@ -19,7 +19,7 @@ function Header() {
         height={50}
         width={50}
         sizes="100vw"
-        className="m-4"
+        className="m-4 hidden md:block"
       />
     </div>
   );
