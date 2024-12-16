@@ -18,7 +18,7 @@
 ## Preview
 
 <div style="display: flex; justify-content: center; align-items: center; flex-direction:row;">
-    <img src="public/assets/preview/exteriorfront.png" alt="laptop Image" style="width: 550px; height: auto;">
+    <img src="public/assets/preview/exteriorfront.png" alt="laptop Image" style="width: 400px; height: auto;">
     <img src="public/assets/preview/mobileexterior.png" alt="monile Image" style="width: 150px; height: auto;">
     <img src="public/assets/preview/mobileinterior.png" alt="mobile Image" style="width: 160px; height: auto;">
 </div>
