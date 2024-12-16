@@ -31,7 +31,7 @@ function InteriorConfigurator({ interiorcolor = "", updateOptions }) {
 
   return (
     <div className="w-full mr-[12rem] md:mr-[0rem] md:w-[30%]">
-      <div className="mb-10 mt-10 w-full md:w-[26rem] flex flex-col items-center justify-start rounded-lg bg-slate-300 p-4">
+      <div className="mb-5 mt-5 md:mb-10 md:mt-10 w-full md:w-[26rem] flex flex-col items-center justify-start rounded-lg bg-slate-300 p-4">
         <h3 className="font-inter text-lg font-semibold mb-5">INTERIOR-FRONT COLORS</h3>
         <div className="flex flex-wrap gap-2">
           {interiorColors.map((interior) => (

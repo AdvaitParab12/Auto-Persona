@@ -27,7 +27,7 @@ function HomePage() {
     <div className="p-10 bg-zinc-700 w-full">
       <Header />
       <ExteriorHeader />
-      <div className="flex flex-col md:flex-col md:items-center md:justify-between md:gap-3 lg:flex-row">
+      <div className="flex flex-col mt-5 md:mt-0 md:flex-col md:items-center md:justify-between md:gap-3 lg:flex-row">
         <ExteriorPreview {...activeOptions} />
         <Configurator updateOptions={updateOptions} {...activeOptions} />
       </div>
