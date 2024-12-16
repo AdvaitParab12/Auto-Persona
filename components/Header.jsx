@@ -10,7 +10,7 @@ function Header() {
         sizes="100vw"
         className="m-4 hidden md:block"
       />
-      <h1 className="m-4 rounded-md text-center font-inter text-5xl font-light tracking-widest">
+      <h1 className="m-4 rounded-md text-center font-inter text-5xl font-light tracking-widest text-white">
         AUTO PERSONA
       </h1>
       <Image
