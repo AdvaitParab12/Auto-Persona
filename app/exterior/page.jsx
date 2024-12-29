@@ -1,9 +1,9 @@
 "use client";
 import React from "react";
 import { useState } from "react";
-import ExteriorHeader from "@/app/exterior/ExteriorHeader";
-import ExteriorPreview from "@/app/exterior/ExteriorPreview";
-import ExteriorConfigurator from "@/app/exterior/ExteriorConfigurator";
+import ExteriorHeader from "@/components/ExteriorHeader";
+import ExteriorPreview from "@/components/ExteriorPreview";
+import ExteriorConfigurator from "@/components/ExteriorConfigurator";
 
 function Exterior() {
   const [activeOptions, setActiveOptions] = useState({

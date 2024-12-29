@@ -1,9 +1,9 @@
 "use client";
 import React from "react";
 import { useState } from "react";
-import InteriorHeader from "@/app/interior/InteriorHeader";
-import InteriorPreview from "@/app/interior/InteriorPreview";
-import InteriorConfigurator from "@/app/interior/InteriorConfigurator";
+import InteriorHeader from "@/components/InteriorHeader";
+import InteriorPreview from "@/components/InteriorPreview";
+import InteriorConfigurator from "@/components/InteriorConfigurator";
 
 function Page() {
   const [activeOptions, setActiveOptions] = useState({

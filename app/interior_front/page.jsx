@@ -1,8 +1,8 @@
 "use client";
 import React, { useState } from "react";
-import InteriorSeatHeader from "@/app/interior_front/InteriorSeatHeader";
-import InteriorSeatPreview from "@/app/interior_front/InteriorSeatPreview";
-import InteriorSeatConfigurator from "@/app/interior_front/InteriorSeatConfigurator";
+import InteriorSeatHeader from "@/components/InteriorSeatHeader";
+import InteriorSeatPreview from "@/components/InteriorSeatPreview";
+import InteriorSeatConfigurator from "@/components/InteriorSeatConfigurator";
 
 function Page() {
   const [activeOptions, setActiveOptions] = useState({
