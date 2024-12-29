@@ -1,7 +1,7 @@
 import Image from "next/image";
 function Header() {
   return (
-    <div className="flex items-center justify-center">
+    <div className="flex items-center justify-center mb-10">
       <Image
         src="/configuration_black.png"
         alt="configuration"
@@ -10,7 +10,7 @@ function Header() {
         sizes="100vw"
         className="m-4 hidden md:block"
       />
-      <h1 className="m-4 rounded-md text-center font-inter text-5xl font-light tracking-widest text-white">
+      <h1 className="m-4 rounded-md text-center font-inter text-5xl font-light tracking-widest text-black">
         AUTO PERSONA
       </h1>
       <Image

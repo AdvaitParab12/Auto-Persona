@@ -1,6 +1,8 @@
 import Image from "next/image";
 
 function InteriorSeatPreview({interiorseats="red"}) {
+  console.log(`interiorseats`, interiorseats);
+  
   return (
     <div className="md:w-[70%] lg:flex lg:items-center lg:justify-center">
       <Image
