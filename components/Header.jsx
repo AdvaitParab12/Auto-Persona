@@ -8,9 +8,9 @@ function Header() {
         height={50}
         width={50}
         sizes="100vw"
-        className="m-4 hidden md:block"
+        className="m-4 hidden md:block border border-black rounded-xl p-2"
       />
-      <h1 className="m-4 rounded-md text-center font-inter text-5xl font-light tracking-widest text-black">
+      <h1 className="m-4 text-center font-inter text-5xl font-light tracking-widest text-black border-2 border-black p-2 rounded-xl">
         AUTO PERSONA
       </h1>
       <Image
@@ -19,7 +19,7 @@ function Header() {
         height={50}
         width={50}
         sizes="100vw"
-        className="m-4 hidden md:block"
+        className="m-4 hidden md:block border border-black rounded-xl p-2"
       />
     </div>
   );

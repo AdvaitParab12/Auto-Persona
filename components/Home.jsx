@@ -10,11 +10,11 @@ function Home() {
           <figure>
             <img
               src="/assets/exterior.jpg"
-              className="h-80 w-32 md:h-[35rem] md:w-96 rounded-xl object-cover"
+              className="h-80 w-32 rounded-xl object-cover md:h-[35rem] md:w-96"
               alt="exterior"
             ></img>
           </figure>
-          <div className="absolute bottom-0 left-[8.5rem] right-0 top-96 text-2xl font-semibold text-white hidden md:block">
+          <div className="absolute bottom-0 left-[8.5rem] right-0 top-96 hidden text-2xl font-semibold text-white md:block">
             EXTERIOR
           </div>
         </div>
@@ -24,11 +24,11 @@ function Home() {
           <figure>
             <img
               src="/assets/interior_front.jpg"
-              className="h-80 w-32 md:h-[35rem] md:w-96 rounded-xl object-cover"
+              className="h-80 w-32 rounded-xl object-cover md:h-[35rem] md:w-96"
               alt="interior-front"
             ></img>
           </figure>
-          <div className="absolute bottom-0 left-[6.5rem] right-0 top-96 text-2xl font-semibold text-white hidden md:block">
+          <div className="absolute bottom-0 left-[6.5rem] right-0 top-96 hidden text-2xl font-semibold text-white md:block">
             INTERIOR FRONT
           </div>
         </div>
@@ -38,11 +38,11 @@ function Home() {
           <figure>
             <img
               src="/assets/interior.webp"
-              className="h-80 w-32 md:h-[35rem] md:w-96 rounded-xl object-cover"
+              className="h-80 w-32 rounded-xl object-cover md:h-[35rem] md:w-96"
               alt="interior"
             ></img>
           </figure>
-          <div className="absolute bottom-0 left-[8rem] right-0 top-96 text-2xl font-semibold text-white hidden md:block">
+          <div className="absolute bottom-0 left-[8rem] right-0 top-96 hidden text-2xl font-semibold text-white md:block">
             INTERIOR
           </div>
         </div>
