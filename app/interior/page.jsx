@@ -8,7 +8,7 @@ import InteriorConfigurator from "@/app/interior/InteriorConfigurator";
 function Page() {
   const [activeOptions, setActiveOptions] = useState({
     color: "Blue",
-    wheel: "Carrera_Wheels",
+    wheel: "Carrera Wheels",
     interiorcolor: "red",
   });
 

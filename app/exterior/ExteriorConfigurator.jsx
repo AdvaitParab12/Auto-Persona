@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import PropTypes from "prop-types";
+
 
 function Configurator({ color = "", wheel = "", updateOptions }) {
   const exteriorColors = [
@@ -87,10 +87,6 @@ function Configurator({ color = "", wheel = "", updateOptions }) {
   );
 }
 
-Configurator.propTypes = {
-  color: PropTypes.string,
-  wheel: PropTypes.string,
-  updateOptions: PropTypes.func.isRequired,
-};
+
 
 export default Configurator;

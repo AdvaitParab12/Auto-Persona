@@ -8,7 +8,7 @@ import ExteriorConfigurator from "@/app/exterior/ExteriorConfigurator";
 function Exterior() {
   const [activeOptions, setActiveOptions] = useState({
     color: "Blue",
-    wheel: "Carrera_Wheels",
+    wheel: "Carrera Wheels",
     interiorcolor: "red",
   });
   function updateOptions(option, value) {
