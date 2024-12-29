@@ -51,7 +51,7 @@ function HomePage() {
     // </div>
     <div className="h-screen bg-zinc-300">
       <Header />
-      <Home />
+      <Home className="h-screen bg-zinc-200 overflow-hidden" /> 
     </div>
   );
 }

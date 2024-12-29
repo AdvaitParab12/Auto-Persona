@@ -1,90 +1,90 @@
 {
   "Blue": {
     "wheels": {
-      "Carrera_Wheels": "/assets/car_wheels/blue/carrera_wheels.webp",
-      "Carrera_S_Wheels": "/assets/car_wheels/blue/carrera_s_wheels.webp",
-      "Carrera_Exclusive_Wheels": "/assets/car_wheels/blue/carrera_exclusive_wheels.webp",
-      "Carrera_Classic_Wheels": "/assets/car_wheels/blue/carrera_classic_wheels.webp",
+      "Carrera Wheels": "/assets/car_wheels/blue/carrera_wheels.webp",
+      "Carrera S Wheels": "/assets/car_wheels/blue/carrera_s_wheels.webp",
+      "Carrera Exclusive_Wheels": "/assets/car_wheels/blue/carrera_exclusive_wheels.webp",
+      "Carrera Classic_Wheels": "/assets/car_wheels/blue/carrera_classic_wheels.webp",
       "Spyder Wheels": "/assets/car_wheels/blue/spyder_wheels.webp",
       "Carbon Blades": "/assets/car_wheels/blue/carbon_blades.webp"
     }
   },
   "Dark Blue": {
     "wheels": {
-      "Carrera_Wheels": "/assets/car_wheels/darkblue/carrera_wheels.webp",
-      "Carrera_S_Wheels": "/assets/car_wheels/darkblue/carrera_s_wheels.webp",
-      "Carrera_Exclusive_Wheels": "/assets/car_wheels/darkblue/careera_exclusive.webp",
-      "Carrera_Classic_Wheels": "/assets/car_wheels/darkblue/carrera_classic_wheels.webp",
+      "Carrera Wheels": "/assets/car_wheels/darkblue/carrera_wheels.webp",
+      "Carrera S Wheels": "/assets/car_wheels/darkblue/carrera_s_wheels.webp",
+      "Carrera Exclusive Wheels": "/assets/car_wheels/darkblue/careera_exclusive.webp",
+      "Carrera Classic Wheels": "/assets/car_wheels/darkblue/carrera_classic_wheels.webp",
       "Spyder Wheels": "/assets/car_wheels/darkblue/sypder_wheels.webp",
       "Carbon Blades": "/assets/car_wheels/darkblue/carbon_blades.webp"
     }
   },
   "Grey": {
     "wheels": {
-      "Carrera_Wheels": "/assets/car_wheels/grey/carrera_wheels.webp",
-      "Carrera_S_Wheels": "/assets/car_wheels/grey/carrera_s_wheels.webp",
-      "Carrera_Exclusive_Wheels": "/assets/car_wheels/grey/carrera_exclusive_wheels.webp",
-      "Carrera_Classic_Wheels": "/assets/car_wheels/grey/carrera_classic_wheels.webp",
+      "Carrera Wheels": "/assets/car_wheels/grey/carrera_wheels.webp",
+      "Carrera S Wheels": "/assets/car_wheels/grey/carrera_s_wheels.webp",
+      "Carrera Exclusive_Wheels": "/assets/car_wheels/grey/carrera_exclusive_wheels.webp",
+      "Carrera Classic_Wheels": "/assets/car_wheels/grey/carrera_classic_wheels.webp",
       "Spyder Wheels": "/assets/car_wheels/grey/spyder_wheels.webp",
       "Carbon Blades": "/assets/car_wheels/grey/carbon_blades.webp"
     }
   },
   "Jet Black": {
     "wheels": {
-      "Carrera_Wheels": "/assets/car_wheels/jetblack/carrera_wheels.webp",
-      "Carrera_S_Wheels": "/assets/car_wheels/jetblack/carrera_s_wheels.webp",
-      "Carrera_Exclusive_Wheels": "/assets/car_wheels/jetblack/carrera_exclusive_wheels.webp",
-      "Carrera_Classic_Wheels": "/assets/car_wheels/jetblack/carrera_classic_wheels.webp",
+      "Carrera Wheels": "/assets/car_wheels/jetblack/carrera_wheels.webp",
+      "Carrera S Wheels": "/assets/car_wheels/jetblack/carrera_s_wheels.webp",
+      "Carrera Exclusive_Wheels": "/assets/car_wheels/jetblack/carrera_exclusive_wheels.webp",
+      "Carrera Classic_Wheels": "/assets/car_wheels/jetblack/carrera_classic_wheels.webp",
       "Spyder Wheels": "/assets/car_wheels/jetblack/spyder_wheels.webp",
       "Carbon Blades": "/assets/car_wheels/jetblack/carbon_blade_wheels.webp"
     }
   },
   "Red": {
     "wheels": {
-      "Carrera_Wheels": "/assets/car_wheels/red/carrera_wheels.webp",
-      "Carrera_S_Wheels": "/assets/car_wheels/red/carrera_s_wheels.webp",
-      "Carrera_Exclusive_Wheels": "/assets/car_wheels/red/carrera_exclusive_wheels.webp",
-      "Carrera_Classic_Wheels": "/assets/car_wheels/red/carrera_classic_wheels.webp",
+      "Carrera Wheels": "/assets/car_wheels/red/carrera_wheels.webp",
+      "Carrera S Wheels": "/assets/car_wheels/red/carrera_s_wheels.webp",
+      "Carrera Exclusive_Wheels": "/assets/car_wheels/red/carrera_exclusive_wheels.webp",
+      "Carrera Classic_Wheels": "/assets/car_wheels/red/carrera_classic_wheels.webp",
       "Spyder Wheels": "/assets/car_wheels/red/spyder_wheels.webp",
       "Carbon Blades": "/assets/car_wheels/red/carbon_blades.webp"
     }
   },
   "Silver": {
     "wheels": {
-      "Carrera_Wheels": "/assets/car_wheels/silver/carrera_wheels.webp",
-      "Carrera_S_Wheels": "/assets/car_wheels/silver/carrera_s_wheels.webp",
-      "Carrera_Exclusive_Wheels": "/assets/car_wheels/silver/carrera_exclusive_wheels.webp",
-      "Carrera_Classic_Wheels": "/assets/car_wheels/silver/carrera_classic_wheels.webp",
+      "Carrera Wheels": "/assets/car_wheels/silver/carrera_wheels.webp",
+      "Carrera S Wheels": "/assets/car_wheels/silver/carrera_s_wheels.webp",
+      "Carrera Exclusive_Wheels": "/assets/car_wheels/silver/carrera_exclusive_wheels.webp",
+      "Carrera Classic_Wheels": "/assets/car_wheels/silver/carrera_classic_wheels.webp",
       "Spyder Wheels": "/assets/car_wheels/silver/spyder_wheels.webp",
       "Carbon Blades": "/assets/car_wheels/silver/carbon_blades.webp"
     }
   },
   "Slate Grey": {
     "wheels": {
-      "Carrera_Wheels": "/assets/car_wheels/slategrey/carrera_wheels.webp",
-      "Carrera_S_Wheels": "/assets/car_wheels/slategrey/carrera_s_wheels.webp",
-      "Carrera_Exclusive_Wheels": "/assets/car_wheels/slategrey/carrera_exclusive_wheels.webp",
-      "Carrera_Classic_Wheels": "/assets/car_wheels/slategrey/carrera_classic_wheels.webp",
+      "Carrera Wheels": "/assets/car_wheels/slategrey/carrera_wheels.webp",
+      "Carrera S Wheels": "/assets/car_wheels/slategrey/carrera_s_wheels.webp",
+      "Carrera Exclusive_Wheels": "/assets/car_wheels/slategrey/carrera_exclusive_wheels.webp",
+      "Carrera Classic_Wheels": "/assets/car_wheels/slategrey/carrera_classic_wheels.webp",
       "Spyder Wheels": "/assets/car_wheels/slategrey/spyder_wheels.webp",
       "Carbon Blades": "/assets/car_wheels/slategrey/carbon_blades.webp"
     }
   },
   "White": {
     "wheels": {
-      "Carrera_Wheels": "/assets/car_wheels/white/carrera_wheels.webp",
-      "Carrera_S_Wheels": "/assets/car_wheels/white/carrera_s_wheels.webp",
-      "Carrera_Exclusive_Wheels": "/assets/car_wheels/white/carrera_exclusive_wheels.webp",
-      "Carrera_Classic_Wheels": "/assets/car_wheels/white/carrera_classic_wheels.webp",
+      "Carrera Wheels": "/assets/car_wheels/white/carrera_wheels.webp",
+      "Carrera S Wheels": "/assets/car_wheels/white/carrera_s_wheels.webp",
+      "Carrera Exclusive_Wheels": "/assets/car_wheels/white/carrera_exclusive_wheels.webp",
+      "Carrera Classic_Wheels": "/assets/car_wheels/white/carrera_classic_wheels.webp",
       "Spyder Wheels": "/assets/car_wheels/white/spyder_wheels.webp",
       "Carbon Blades": "/assets/car_wheels/white/carbon_blades.webp"
     }
   },
   "Yellow": {
     "wheels": {
-      "Carrera_Wheels": "/assets/car_wheels/yellow/carrera_wheels.webp",
-      "Carrera_S_Wheels": "/assets/car_wheels/yellow/carrera_s_wheels.webp",
-      "Carrera_Exclusive_Wheels": "/assets/car_wheels/yellow/carrera_exclusive_wheels.webp",
-      "Carrera_Classic_Wheels": "/assets/car_wheels/yellow/carrera_classic_wheels.webp",
+      "Carrera Wheels": "/assets/car_wheels/yellow/carrera_wheels.webp",
+      "Carrera S Wheels": "/assets/car_wheels/yellow/carrera_s_wheels.webp",
+      "Carrera Exclusive_Wheels": "/assets/car_wheels/yellow/carrera_exclusive_wheels.webp",
+      "Carrera Classic_Wheels": "/assets/car_wheels/yellow/carrera_classic_wheels.webp",
       "Spyder Wheels": "/assets/car_wheels/yellow/spyder_wheels.webp",
       "Carbon Blades": "/assets/car_wheels/yellow/carbon_blades.webp"
     }
