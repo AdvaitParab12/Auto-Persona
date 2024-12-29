@@ -1,5 +1,6 @@
 import Image from "next/image";
 
+
 function InteriorSeatPreview({interiorseats="red"}) {
   console.log(`interiorseats`, interiorseats);
   

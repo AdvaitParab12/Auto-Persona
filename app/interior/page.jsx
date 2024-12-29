@@ -17,10 +17,10 @@ function Page() {
     setActiveOptions(newOptions);
   }
   return (
-    <div className="h-screen bg-zinc-200 overflow-hidden">
+    <div className="h-screen bg-zinc-950 overflow-hidden p-5 md:p-10"> 
       <InteriorHeader />
       <div className="flex flex-col md:flex-col md:items-center md:justify-between md:gap-3 lg:flex-row">
-        <InteriorPreview activeOptions={activeOptions} />
+        <InteriorPreview {...activeOptions} />
         <InteriorConfigurator
           updateOptions={updateOptions}
           {...activeOptions}

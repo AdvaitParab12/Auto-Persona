@@ -15,20 +15,20 @@ function Configurator({ color = "", wheel = "", updateOptions }) {
   ];
 
   const wheelOptions = [
-    { id: 0, name: "Carrera_Wheels", src: "/assets/wheels/carrera_wheel.png" },
+    { id: 0, name: "Carrera Wheels", src: "/assets/wheels/carrera_wheel.png" },
     {
       id: 1,
-      name: "Carrera_S_Wheels",
+      name: "Carrera S Wheels",
       src: "/assets/wheels/carrera_s_wheel.png",
     },
     {
       id: 2,
-      name: "Carrera_Exclusive_Wheels",
+      name: "Carrera Exclusive Wheels",
       src: "/assets/wheels/carrera_exclusive_wheel.png",
     },
     {
       id: 3,
-      name: "Carrera_Classic_Wheels",
+      name: "Carrera Classic Wheels",
       src: "/assets/wheels/carrera_classic_wheel.png",
     },
     { id: 4, name: "Spyder Wheels", src: "/assets/wheels/spyder_wheel.png" },
@@ -37,8 +37,8 @@ function Configurator({ color = "", wheel = "", updateOptions }) {
 
   return (
     <div className="w-full mr-[12rem] md:mr-[0rem] md:w-[30%]">
-      <div className="mb-5 mt-10 w-full md:w-[26rem] flex flex-col items-center justify-start rounded-lg bg-slate-300 p-4">
-        <h3 className="font-inter text-lg font-semibold mb-2">EXTERIOR COLORS</h3>
+      <div className="mb-5 mt-10 w-full md:w-[26rem] flex flex-col items-center justify-start rounded-lg bg-white p-4 border-2 border-zinc-400">
+        <h3 className="font-inter text-lg font-semibold mb-2 text-black border-2 w-full text-center rounded-md border-black">EXTERIOR COLORS</h3>
         <div className="flex flex-wrap gap-2">
           {exteriorColors.map((exterior) => (
             <button
@@ -53,15 +53,15 @@ function Configurator({ color = "", wheel = "", updateOptions }) {
             >
               <div
                 style={{ backgroundColor: exterior.color }}
-                className="m-1 ml-1 h-10 w-12 md:ml-1  md:h-10 md:w-44 rounded-xl"
+                className="m-1 ml-1 h-10 w-12 md:ml-1  md:h-10 md:w-44 rounded-xl shadow-3xl"
                 aria-label={exterior.name}
               />
             </button>
           ))}
         </div>
       </div>
-      <div className="mb-10 w-full md:w-[26rem] flex flex-col items-center justify-center rounded-lg bg-slate-300 p-4">
-        <h3 className="font-inter text-lg font-semibold mb-2">WHEEL OPTIONS</h3>
+      <div className="mb-10 w-full md:w-[26rem] flex flex-col items-center justify-center rounded-lg bg-white p-4 border-2 border-zinc-400">
+        <h3 className="font-inter text-lg font-semibold mb-2 text-black border-2 w-full text-center rounded-md border-black">WHEEL OPTIONS</h3>
         <div className="flex flex-wrap gap-5 items-center justify-center">
           {wheelOptions.map((wheelOption) => (
             <button

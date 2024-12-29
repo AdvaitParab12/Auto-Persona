@@ -16,10 +16,10 @@ function Exterior() {
     setActiveOptions(newOptions);
   }
   return (
-    <div className="bg-zinc-200 h-screen overflow-hidden">
+    <div className="bg-zinc-950 h-screen p-5 md:p-10 overflow-hidden">
         <ExteriorHeader />
       <div className="mt-5 flex flex-col md:mt-0 md:flex-col md:items-center md:justify-between md:gap-3 lg:flex-row">
-        <ExteriorPreview activeOptions={activeOptions} />
+        <ExteriorPreview {...activeOptions} />
         <ExteriorConfigurator
           updateOptions={updateOptions}
           {...activeOptions}
